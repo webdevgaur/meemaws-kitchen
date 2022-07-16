@@ -14,14 +14,12 @@ import { HomeComponent } from './components/home/home.component';
 import { RouterModule } from '@angular/router';
 import { FormsModule } from '@angular/forms';
 import { CKEditorModule } from '@ckeditor/ckeditor5-angular';
-import { CommentEditorComponent } from './components/post-editor/comment-editor.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavBarComponent,
     HomeComponent,
-    CommentEditorComponent
   ],
   imports: [
     BrowserModule,
